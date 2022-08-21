@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+* {
+    margin:0;
+    font-family: 'Righteous', cursive;
+}
+body{
+    margin:0;
+    padding:0;
+    background-image: url("background.webp");
+}
+
+/* Header*/
+.cabecalho{
+    display:flex;
+    flex-direction:row;
+    background-color: #f8d1eedf;
+}
+.top-left {
+    display: flex;
+    align-self: center;
+    color: black;
+}
+.top-left img{
+    margin-left:0;
+    max-width: 90px;
+    justify-self: center;
+}
+.top-left h1{
+    align-self:center;
+}
+.links ul{
+    display:flex;
+    flex-direction:row;
+    justify-items: center;
+    padding: 0;
+    margin-left: 520px;
+}
+.links ul li{
+    margin: 10px;  
+    text-decoration: none;
+    list-style: none;
+}
+.links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+}
+.links ul li a:hover{
+    color:aliceblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.top-right{
+    display: flex;
+    flex-direction:row;
+    align-self: center;
+}
+.top-right img{
+   width: auto;
+   max-width: 20px;
+   max-height: 20px;
+   border: 2px solid white;
+   padding: 10px;
+   border-radius: 10px;
+}
+.top-right img:hover{
+    transform: translateY(-10px);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    backdrop-filter: blur(8px);
+    background-color: rgba(203, 154, 248, 0.476);
+ }
+.top-right img[src="facebook.png"]{
+    margin-right: 10px;
+    margin-left: 600px;
+}
+.center{
+    align-self: center;
+}
+/* Content */
+.texto {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 1000px;
+    margin-right: 50px;;
+    font-size:200%
+}
+.resum{
+    font-size:50%
+}
+.shop{
+    margin-top:50px;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: rgb(136, 17, 247);
+    border: 1px solid transparent;
+}
+.shop:hover{
+    background-color: rgb(136, 17, 247);
+    color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.impact {
+    text-align: justified;
+    word-break: normal;
+}
+
+
+
